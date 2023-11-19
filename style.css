@@ -1,0 +1,108 @@
+body {
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+    
+  }
+  h2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+    
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #0059ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* Center the "Create Comic" button */
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  #comic-container {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comic-panel {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+
+/* For screens that are 600px wide or smaller */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .comic-panel {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+  }
+}
+
+/* For screens that are 1024px wide or smaller */
+@media (max-width: 1024px) {
+  form {
+    width: 75%;
+  }
+
+  .comic-panel {
+    width: 125px;
+    height: 125px;
+    margin: 6px;
+  }
+}
+
+
+  
